@@ -1,0 +1,1 @@
+robotrc_stm32f030_hal\startup_stm32f030x8.o: startup_stm32f030x8.s

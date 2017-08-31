@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+"robotrc_stm32f030_hal\main.o"
+"robotrc_stm32f030_hal\stm32f0xx_it.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_msp.o"
+"robotrc_stm32f030_hal\system_stm32f0xx.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_tim.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_rcc_ex.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_cortex.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_gpio.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_tim_ex.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_i2c_ex.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_i2c.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_dma.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_flash.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_flash_ex.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_rcc.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_pwr_ex.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_pwr.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_uart_ex.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_uart.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_adc_ex.o"
+"robotrc_stm32f030_hal\stm32f0xx_hal_adc.o"
+"robotrc_stm32f030_hal\startup_stm32f030x8.o"
+--library_type=microlib --strict --scatter "robotrc_stm32f030_hal\robotrc_stm32f030_hal.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "robotrc_stm32f030_hal.map" -o robotrc_stm32f030_hal\robotrc_stm32f030_hal.axf
